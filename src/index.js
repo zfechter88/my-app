@@ -2,14 +2,21 @@ import { StrictMode } from "react";
 import ReactDOM from "react-dom";
 import React from "react";
 
-import App from "/App.js";
-
 const rootElement = document.getElementById("root");
+
+
+function Testing() {
+  return (
+    <p>hold on this line testing.</p>
+    )
+}
+
+
 
 ReactDOM.render(
   <StrictMode> 
   <p>Hello world.</p>,
-  <App />,
+  <Testing />,
   </StrictMode>,
   rootElement
 );
