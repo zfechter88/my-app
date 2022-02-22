@@ -1,7 +1,15 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import { StrictMode } from "react";
+import ReactDOM from "react-dom";
+
+import Game from "./App";
+
+const rootElement = document.getElementById("root");
+
+
 
 ReactDOM.render(
-    <h1>This is a test.</h1>,
-  document.getElementById('root')
+  <StrictMode>
+  <Game />, 
+  </StrictMode>,
+  rootElement
 );
