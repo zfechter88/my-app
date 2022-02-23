@@ -4,6 +4,7 @@ import React from "react";
 import { useEffect } from "react";
 import { useState } from "react";
 import "./styles.css";
+import Styles from 'style-loader!css-loader?modules!./styles.css';
 
 const rootElement = document.getElementById("root");
 
