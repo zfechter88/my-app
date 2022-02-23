@@ -2,7 +2,6 @@ import React from "react";
 import "./styles.css";
 import { useEffect } from "react";
 import { useState } from "react";
-import "styles.css";
 
 function PlayGameContainer() {
   //score
