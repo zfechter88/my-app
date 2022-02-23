@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import React from "react";
 import { useEffect } from "react";
 import { useState } from "react";
-import "./styles.css";
+import "styles.css";
 
 const rootElement = document.getElementById("root");
 
