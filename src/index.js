@@ -282,13 +282,13 @@ function PlayGameContainer() {
   }
 
   return (
-    <div class="App">
-      <h3 class="Title">
+    <div className="App">
+      <h3 className="Title">
         Coin Toss Football...where every game is a...flip of the coin...
       </h3>
 
       {/*play single game//*/}
-      <div class="RegularSeason">
+      <div className="RegularSeason">
         <p style={{ fontWeight: "bold" }}>Season: {seasons}</p>
 
         <p>{seasonBlurb}</p>
@@ -300,11 +300,11 @@ function PlayGameContainer() {
         <p>{startOverButton()}</p>
       </div>
 
-      <p class="CareerStatsHead">
+      <p className="CareerStatsHead">
         <h4>Career Stats:</h4>
       </p>
 
-      <div class="CareerStats">
+      <div className="CareerStats">
         <h5>Career Record:</h5>
         <p>Career Wins: {careerWins}</p>
         <p>Career Losses: {careerLosses}</p>
@@ -317,7 +317,7 @@ function PlayGameContainer() {
         <p>Super Bowl Losses: {superBowlLosses}</p>
       </div>
 
-      <div class="AddtlCareerStats">
+      <div className="AddtlCareerStats">
         <h4>Additional Playoff Stats:</h4>
         <h5>Conference Championship Round: </h5>
         <p>Wins: {careerConfChampWins} </p>
@@ -332,7 +332,7 @@ function PlayGameContainer() {
         <p>Losses: {careerWCLosses} </p>
       </div>
 
-      <div class="SuperBowlCityRecord">
+      <div className="SuperBowlCityRecord">
         <h5>Super Bowl record by host city</h5>
         <p>
           Los Angeles: {LABowlWin} : {LABowlLoss}
